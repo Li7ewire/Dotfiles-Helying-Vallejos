@@ -118,7 +118,7 @@ touch dark-grey.json
 stow --adopt -nvt ~ qtile
 
 # Nota: la -n antes del vt es para confirmar que los cambios estan en el lugar adecuado los cambios no se efectuaran hasta que se remueva. 
-# Ejemplo:
+# Ejemplo para que los cambios tomen efecto:
 stow --adopt -vt ~ qtile
 ```
 
