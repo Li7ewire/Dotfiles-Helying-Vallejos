@@ -4,7 +4,7 @@ en caso de perdida o necesidad de correr comandos personalisados en otra maquina
 
 ## Repositorio
 
-1. Clona el repositorio 
+1. Clona el repositorio a nueva carpeta ~/.dotfiles
 ```zsh
 # HTTPS
 git clone https://github.com/Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
