@@ -20,9 +20,9 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 
 ``` zsh
 # Para enviar nuevos archivos
-    git add "nombre_del_archivo"
+git add "nombre_del_archivo"
 # Para actualizar todos los archivos en github
- git add -u 
+git add -u 
 ```
 
 
