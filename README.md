@@ -23,6 +23,9 @@ git add "nombre_del_archivo"
 
 # Para actualizar todos los archivos en github
 git add -u 
+
+# Para enviar y actualizar todos los archivos
+git add .
 ```
 
 
