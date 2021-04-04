@@ -1,5 +1,5 @@
 # Dotfiles-Helying-Vallejos
-Mis Dotfiles y personalizacion de arch linux
+Mis Dotfiles y personalizacion de Arch Linux
 
 ## Repositorio
 
