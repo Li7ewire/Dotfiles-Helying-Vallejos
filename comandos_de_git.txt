@@ -13,7 +13,10 @@ git push (envia todo al repositorio web, pedira usuario y contrasena)
 git pull (para actualizar tu disco local, y anadir todos archivos que hayan sido creado desde la web y no en la maquina local
 
 
+ahora para enviar y recibir no necesitas login usa esto ya que hay un ssh key 
 
+git push git@github.com:Li7ewire/Dotfiles-Helying-Vallejos
+Everything up-to-date (el mensaje en caso de funcionar)
 
 
 
