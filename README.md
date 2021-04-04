@@ -85,7 +85,7 @@ git pull
 ```
 
 
-# GNU stow para sincronizar dotfiles
+# GNU Stow para sincronizar dotfiles
 
 ## Respaldar directorios locales en git
 
@@ -138,6 +138,6 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 # Restaura todos los archivos del repositorio
 stow *
 
-# Para restuarar el ajuste de programa en especifico
+# Para restaurar el ajuste de programa en especifico
 stow -vSt "archivo"
 ```
