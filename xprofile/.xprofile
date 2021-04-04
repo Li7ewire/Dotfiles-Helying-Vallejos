@@ -1,0 +1,6 @@
+blueman-applet &
+nm-applet &
+udiskie -t &
+picom &
+nitrogen --restore &
+wal -R
