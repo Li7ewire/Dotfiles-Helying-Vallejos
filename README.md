@@ -3,7 +3,7 @@ Mis Dotfiles y personalizacion de Arch Linux
 
 ![Qtile](Capturas/qtile.png)
 
-***Indice***
+# Indice
 - [Requisitos](#requisitos)
 - [Repositorio](#repositorio)
 - [Comandos de Git](#comandos-de-git)
