@@ -1,4 +1,4 @@
-# Dotfiles-Helying-Vallejos
+# Dotfiles Helying Vallejos
 Mis Dotfiles y personalizacion de Arch Linux
 
 ![Qtile](Capturas/qtile.png)
