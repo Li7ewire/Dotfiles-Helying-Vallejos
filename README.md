@@ -4,7 +4,7 @@ en caso de perdida o necesidad de correr comandos personalisados en otra maquina
 
 # Tutorial
 
-$ git clone
+$ git clone 
 para agregar el repositorio
 
 $ git add "nombre_de_lo_actualizado"
@@ -25,6 +25,7 @@ $ git pull (para actualizar tu disco local, y anadir todos archivos que hayan si
 ahora para enviar y recibir no necesitas login usa esto ya que hay un ssh key 
 
 $ git push git@github.com:Li7ewire/Dotfiles-Helying-Vallejos
+
 Everything up-to-date (el mensaje en caso de funcionar)
 
 
