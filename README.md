@@ -133,6 +133,7 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 
 2. Restaura los ajustes y programas
 ```bash
+# Restaura todos los archivos del repositorio
 stow *
 
 # Para restuarar el ajuste de programa en especifico
