@@ -18,13 +18,13 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 1. Agregar un nuevo archivo local a github
 
 ``` zsh
-# Para enviar nuevos archivos
+# Para enviar un nuevo archivo especifico
 git add "nombre_del_archivo"
 
 # Para actualizar todos los archivos en github
 git add -u 
 
-# Para enviar y actualizar todos los archivos
+# Para enviar y actualizar todos los nuevos archivos
 git add .
 ```
 
