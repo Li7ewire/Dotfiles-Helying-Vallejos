@@ -13,7 +13,7 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 ```
 
 
-## Usar git desde la consola
+## Usar git desde la terminal
 
 1. Agregar un nuevo archivo local a github
 
@@ -50,7 +50,7 @@ git push
 git push git@github.com:Li7ewire/Dotfiles-Helying-Vallejos
 ```
 
-5. Agregar archivos de github a tus disco local
+5. Agregar actualizaciones de github a tus disco local
 ```zsh
 git pull
 ```
