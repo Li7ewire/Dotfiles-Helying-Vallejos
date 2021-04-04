@@ -2,31 +2,61 @@
 Respaldo de mis Dotfiles de arch linux
 en caso de perdida o necesidad de correr comandos personalisados en otra maquina
 
-# Tutorial
+## Repositorio
 
-$ git clone 
-para agregar el repositorio
-
-$ git add "nombre_de_lo_actualizado"
-o 
-$ git add -u 
-para actualizar todo (esto funciona solo con las cosas que se han creado y estan en el repositorio de la web, si creaste algo nuevo, tenes que agregarlo directamente el archivo y el nombre)
-
-$ git status 
-para confirmar que archivo va a ser enviado o actualizado
-
-$ git commit -m "anades un texto de los cambios realizados siempre entre comilla"
-
-$ git push (envia todo al repositorio web, pedira usuario y contrasena)
-
-$ git pull (para actualizar tu disco local, y anadir todos archivos que hayan sido creado desde la web y no en la maquina local
+1. Clona el repositorio en uno nuevo
+```zsh
+# HTTPS
+git clone https://github.com/Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
+ 
+# SSH
+git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
+```
 
 
-ahora para enviar y recibir no necesitas login usa esto ya que hay un ssh key 
+## Usar git desde la consola
 
-$ git push git@github.com:Li7ewire/Dotfiles-Helying-Vallejos
+1. Agregar un nuevo archivo local a github
 
-Everything up-to-date (el mensaje en caso de funcionar)
+``` zsh
+# Para enviar nuevos archivos
+    git add "nombre_del_archivo"
+# Para actualizar todos los archivos en github
+ git add -u 
+```
+
+
+2. Revisa el estado de los archivos modificados
+
+```zsh
+git status 
+```
+
+
+3. Agrega el comentario con los nuevos cambios 
+
+``` zsh
+git commit -m "Texto"
+```
+
+
+4. Envia los nuevos archivos o actualizaciones
+
+```zsh
+# Pedira usuario y clave de github
+git push
+
+# Si tienes llaves SSH pedira la clave correspondiente
+git push git@github.com:Li7ewire/Dotfiles-Helying-Vallejos
+```
+
+5. Agregar archivos de github a tus disco local
+```zsh
+git pull
+```
+
+
+
 
 
 
