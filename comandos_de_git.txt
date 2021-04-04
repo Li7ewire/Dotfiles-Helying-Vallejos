@@ -1,0 +1,19 @@
+git clone
+para anadir el repositorio
+git add "nombre de lo actualizado"
+o 
+git add -u para actualizar todo (esto funciona solo con las cosas que se han creado y estan en el repositorio de la web, si creaste algo nuevo, tenes que anadirlo directamente el archivo y el nombre)
+
+git status para confirmar que archivo va a ser enviado o actualizado
+
+git commit -m "anades un texto de los cambios realizados siempre entre comilla"
+
+git push (envia todo al repositorio web, pedira usuario y contrasena)
+
+git pull (para actualizar tu disco local, y anadir todos archivos que hayan sido creado desde la web y no en la maquina local
+
+
+
+
+
+
