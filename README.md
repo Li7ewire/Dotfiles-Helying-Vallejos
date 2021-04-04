@@ -89,7 +89,7 @@ git pull
 
 ## Respaldar directorios locales en git
 
-1. Descarga stow 
+1. Descarga Stow 
 ```bash
 # Arch Linux
 sudo pacman -S stow 
