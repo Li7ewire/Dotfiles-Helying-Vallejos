@@ -4,13 +4,13 @@ Mis Dotfiles y personalizacion de Arch Linux
 ![Qtile](Capturas/qtile.png)
 
 ***Indice***
-- [Requisitos](##requisitos)
-- [Repositorio](##repositorio)
+- [Requisitos](#requisitos)
+- [Repositorio](#repositorio)
 - [Comandos de Git](#comandos-de-git)
-    - [Usar git desde la terminal](##usar-git-desde-la-terminal)
+    - [Usar git desde la terminal](#usar-git-desde-la-terminal)
 - [GNU stow para sincronizar dotfiles](#gnu-stow-para-sincronizar-dotfiles)
-    - [Respaldar directorios locales en git](##repaldar-directorios-locales-en-git)
-    - [Restaurar los dotfiles en una nueva maquina](##restaurar-los-dotfiles-en-una-nueva-maquina)
+    - [Respaldar directorios locales en git](#repaldar-directorios-locales-en-git)
+    - [Restaurar los dotfiles en una nueva maquina](#restaurar-los-dotfiles-en-una-nueva-maquina)
 
 
     
@@ -18,7 +18,7 @@ Mis Dotfiles y personalizacion de Arch Linux
 
 
 
-# Requistos
+## Requistos
 
 Instala git para los comandos en la terminal
 ```bash
@@ -26,7 +26,7 @@ Instala git para los comandos en la terminal
 sudo pacman -S git
 ```
 
-# Repositorio
+## Repositorio
 
 1. Clona el repositorio a nueva carpeta ~/.dotfiles
 ```zsh
@@ -39,7 +39,7 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 
 # Comandos de git
 
-# Usar git desde la terminal
+## Usar git desde la terminal
 
 1. Agregar un nuevo archivo local a github
 
@@ -87,7 +87,7 @@ git pull
 
 # GNU stow para sincronizar dotfiles
 
-# Respaldar directorios locales en git
+## Respaldar directorios locales en git
 
 1. Descarga stow 
 ```bash
@@ -121,7 +121,7 @@ stow --adopt -nvt ~ qtile
 stow --adopt -vt ~ qtile
 ```
 
-# Restaurar los dotfiles en una nueva maquina
+## Restaurar los dotfiles en una nueva maquina
 
 1.  Clona el repositorio a nueva carpeta ~/.dotfiles
 ```zsh
