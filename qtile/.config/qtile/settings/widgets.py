@@ -29,7 +29,7 @@ def powerline(fg="light", bg="dark"):
         text="", # Icon: nf-oct-triangle_left
         fontsize=30,
         padding=-2,
-    )
+)
 
 # Widgets de grupos de trabajos, en iconos  
 def workspaces(): 
@@ -38,9 +38,9 @@ def workspaces():
         widget.GroupBox(
             **base(fg='light'),
             font='UbuntuMono Nerd Font',
-            fontsize=15,
+            fontsize=14,
             margin_y=2,
-            margin_x=-1,
+            margin_x=-2,
             padding_y=0,
             padding_x=0,
             borderwidth=0,
@@ -57,7 +57,7 @@ def workspaces():
             disable_drag=True
         ),
         separator(),
-        widget.WindowName(**base(fg='focus'), fontsize=12, padding=2),
+        widget.WindowName(**base(fg='focus'), fontsize=11, padding=2),
         separator(),
 
     ]
