@@ -28,7 +28,7 @@ def powerline(fg="light", bg="dark"):
         **base(fg, bg),
         text="", # Icon: nf-oct-triangle_left
         fontsize=30,
-        padding=-2
+        padding=-2,
     )
 
 # Widgets de grupos de trabajos, en iconos  
@@ -39,9 +39,9 @@ def workspaces():
             **base(fg='light'),
             font='UbuntuMono Nerd Font',
             fontsize=15,
-            margin_y=1,
+            margin_y=2,
             margin_x=-1,
-            padding_y=8,
+            padding_y=0,
             padding_x=0,
             borderwidth=0,
             active=colors['active'],
@@ -70,7 +70,7 @@ primary_widgets = [
     #widgets de actualizaciones
     powerline('color4', 'dark'),
 
-    icon(bg="color4", text=' '), # Icon: nf-fa-download
+    icon(bg="color4", text=' ', fontsize = 12), # Icon: nf-fa-download
     
     widget.CheckUpdates(
         background=colors['color4'],
@@ -86,7 +86,7 @@ primary_widgets = [
 	# Widget de Red 	
     powerline('color3', 'color4'),
 
-    icon(bg="color3", text=' '),  # Icon: nf-fa-feed
+    icon(bg="color3", text=' ', fontsize = 12),  # Icon: nf-fa-feed
     
     widget.Net(**base(bg='color3'), interface='wlo1', fontsize = 13, format = '{interface}: {down} ↓↑ {up} ',),
 
