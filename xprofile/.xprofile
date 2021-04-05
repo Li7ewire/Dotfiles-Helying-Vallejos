@@ -1,5 +1,5 @@
-blueman-applet &
 /usr/bin/ibus-daemon --xim &
+blueman-applet &
 nm-applet &
 udiskie -t &
 picom &
