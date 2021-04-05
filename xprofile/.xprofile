@@ -1,7 +1,7 @@
 blueman-applet &
+/usr/bin/ibus-daemon --xim &
 nm-applet &
 udiskie -t &
 picom &
 nitrogen --restore &
 wal -R
-/usr/bin/ibus-daemon --xim &
