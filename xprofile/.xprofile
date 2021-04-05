@@ -4,3 +4,4 @@ udiskie -t &
 picom &
 nitrogen --restore &
 wal -R
+/usr/bin/ibus-daemon --xim &

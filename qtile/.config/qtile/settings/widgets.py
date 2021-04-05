@@ -38,8 +38,8 @@ def workspaces():
         widget.GroupBox(
             **base(fg='light'),
             font='UbuntuMono Nerd Font',
-            fontsize=17,
-            margin_y=2,
+            fontsize=15,
+            margin_y=1,
             margin_x=-1,
             padding_y=8,
             padding_x=0,
@@ -59,6 +59,7 @@ def workspaces():
         separator(),
         widget.WindowName(**base(fg='focus'), fontsize=12, padding=2),
         separator(),
+
     ]
 
 primary_widgets = [

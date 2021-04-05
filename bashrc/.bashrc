@@ -10,5 +10,8 @@ PS1='[\u@\h \W]\$ '
 alias config='/usr/bin/git --git-dir=/home/helying/dotfiles/ --work-tree=/home/helying'
 
 
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
 
 
