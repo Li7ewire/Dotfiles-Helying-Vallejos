@@ -80,7 +80,7 @@ primary_widgets = [
         display_format='{updates} ',
         update_interval=1800,
         custom_command='checkupdates',
-        fontsize=13
+        fontsize=11
     ),
 	
 	# Widget de Red 	
@@ -88,24 +88,24 @@ primary_widgets = [
 
     icon(bg="color3", text=' ', fontsize = 12),  # Icon: nf-fa-feed
     
-    widget.Net(**base(bg='color3'), interface='wlo1', fontsize = 13, format = '{interface}: {down} ↓↑ {up} ',),
+    widget.Net(**base(bg='color3'), interface='wlo1', fontsize = 11, format = '{interface}: {down} ↓↑ {up} ',),
 
     # Widget de calendario
     powerline('color2', 'color3'),
 
     widget.CurrentLayoutIcon(**base(bg='color2'), scale=0.65),
 
-    widget.CurrentLayout(**base(bg='color2'), padding=5, fontsize=13),
+    widget.CurrentLayout(**base(bg='color2'), padding=5, fontsize=11),
 
     powerline('color1', 'color2'),
 
     icon(bg="color1", fontsize=13, text=' '), # Icon: nf-mdi-calendar_clock
 
-    widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %I:%M %p ', fontsize = 13),
+    widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %I:%M %p ', fontsize = 11),
 
     powerline('dark', 'color1'),
 
-    widget.Systray(background=colors['dark'], padding=6, icon_size = 12),
+    widget.Systray(background=colors['dark'], padding=6, icon_size = 11),
 ]
 
 #Widgets de fechas
@@ -131,6 +131,6 @@ secondary_widgets = [
 widget_defaults = {
     'font': 'UbuntuMono Nerd Font ',
     'fontsize': 10,
-    'padding': 1,
+    'padding': 0,
 }
 extension_defaults = widget_defaults.copy()
