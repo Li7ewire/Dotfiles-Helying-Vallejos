@@ -105,7 +105,7 @@ primary_widgets = [
 
     powerline('dark', 'color1'),
 
-    widget.Systray(background=colors['dark'], padding=6, icon_size = 11),
+    widget.Systray(background=colors['dark'], padding=6, icon_size = 10),
 ]
 
 #Widgets de fechas
