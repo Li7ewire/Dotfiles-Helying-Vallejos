@@ -1,7 +1,7 @@
 # Dotfiles & Configs
 Mis Dotfiles y personalizacion de Arch Linux
 
-![Qtile](Capturas/qtile.png)
+![Qtile](Capturas/qtilen.png)
 
 # Indice
 - [Requisitos](#requisitos)
