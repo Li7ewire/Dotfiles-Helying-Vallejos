@@ -1,0 +1,70 @@
+background_opacity: 1
+
+colors:
+  # Default colors
+  primary:
+    background: '#101115'
+    foreground: '#83687E'
+
+  # Normal colors
+  normal:
+    black:   '#5B7294'
+    red:     '#8C7795'
+    green:   '#658CAA'
+    yellow:  '#688BB1'
+    blue:    '#79A9C4'
+    magenta: '#c4bbcc'
+    cyan:    '#89828e'
+    white:   '#83687E'
+
+  # Bright colors
+  bright:
+    black:   '#5B7294'
+    red:     '#8C7795'
+    green:   '#658CAA'
+    yellow:  '#688BB1'
+    blue:    '#79A9C4'
+    magenta: '#c4bbcc'
+    cyan:    '#89828e'
+    white:   '#83687E'
+
+font:
+  bold:
+    family: UbuntuMono Nerd Font
+    # family: mononoki Nerd Font
+    # family: agave Nerd Font
+    # family: Caskaydia Cove Nerd Font
+    # family: JetBrains Mono ExtraBold Nerd Font 
+    # family: Hurmit Nerd Font Mono
+    # family: DaddyTimeMono Nerd Font
+    # family: Iosevka NF
+    # family: Hack NF
+    # family: SpaceMono NF
+  italic:
+    family: UbuntuMono Nerd Font
+    # family: mononoki Nerd Font
+    # family: agave Nerd Font
+    # family: Caskaydia Cove Nerd Font
+    # family: JetBrains Mono Medium Nerd Font
+    # family: Hurmit Nerd Font Mono
+    # family: DaddyTimeMono Nerd Font
+    # family: Iosevka NF
+    # family: Hack NF
+    # family: SpaceMono NF
+  normal:
+    family: UbuntuMono Nerd Font
+    # family: mononoki Nerd Font
+    # family: agave Nerd Font
+    # family: Caskaydia Cove Nerd Font
+    # family: JetBrains Mono Medium Nerd Font
+    # family: Hurmit Nerd Font Mono
+    # family: DaddyTimeMono Nerd Font
+    # family: Iosevka NF
+    # family: Hack NF
+    # family: SpaceMono NF
+    style: Regular
+  size: 11
+
+window:
+  padding:
+    x: 2
