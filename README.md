@@ -18,7 +18,7 @@ Mis Dotfiles y personalizacion de Arch Linux
 
 
 
-## Requistos
+## Requisitos
 
 Instala git para los comandos en la terminal
 ```bash
