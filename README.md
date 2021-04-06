@@ -9,7 +9,7 @@ Mis Dotfiles y personalizacion de Arch Linux
 - [Comandos de Git](#comandos-de-git)
     - [Usar git desde la terminal](#usar-git-desde-la-terminal)
 - [GNU stow para sincronizar dotfiles](#gnu-stow-para-sincronizar-dotfiles)
-    - [Respaldar directorios locales en git](#repaldar-directorios-locales-en-git)
+    - [Respaldar directorios locales en git](#respaldar-directorios-locales-en-git)
     - [Restaurar los dotfiles en una nueva maquina](#restaurar-los-dotfiles-en-una-nueva-maquina)
 
 
