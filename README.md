@@ -139,5 +139,5 @@ git clone git@github.com:Li7ewire/Dotfiles-Helying-Vallejos.git ~/.dotfiles
 stow *
 
 # Para restaurar el ajuste de un programa en especifico
-stow -vSt "archivo"
+stow -vSt ~ "archivo"
 ```
