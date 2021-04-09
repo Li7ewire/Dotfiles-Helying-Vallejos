@@ -141,3 +141,4 @@ stow *
 # Para restaurar el ajuste de un programa en especifico
 stow -vSt ~ "archivo"
 ```
+Esto funcionara solo si se crean los archivos existentes al igual que al enlazarlos
