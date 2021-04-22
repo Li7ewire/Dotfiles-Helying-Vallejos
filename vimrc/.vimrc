@@ -45,7 +45,7 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 
-colorscheme onedark
+colorscheme nord
 let g:airline_theme='onedark'
 "Disables special character rendering at end of line
 set nolist
