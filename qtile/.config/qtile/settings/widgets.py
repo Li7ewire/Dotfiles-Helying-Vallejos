@@ -87,7 +87,7 @@ primary_widgets = [
 
     icon(bg="color3", text=' ', fontsize = 12),  # Icon: nf-fa-feed
     
-    widget.Net(**base(bg='color3'), interface='wlo1', fontsize = 11, format = '{interface}: {down} ↓↑ {up} ',),
+    widget.Net(**base(bg='color3'), interface='wlo1', fontsize = 11, format = '{interface}: {down} ↓↑ {up} '),
 
     # Widget de calendario
     powerline('color2', 'color3'),
