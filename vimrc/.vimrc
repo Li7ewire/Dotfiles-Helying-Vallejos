@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
  set laststatus=2
 "Polyglot Syntax Plugin
 Plug 'sheerun/vim-polyglot'
+Plug 'oxozsh/amora'
 "One Dark Colorscheme
 Plug 'joshdick/onedark.vim'
 "Dracula Colorscheme
